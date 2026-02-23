@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "w6_3133_nodejs_express_apollo_graphql",
   "version": "1.0.0",
   "description": "Advanve mongodb, mongoos and express",
@@ -35,6 +36,24 @@
     "graphql": "^16.12.0",
     "graphql-tag": "^2.12.6",
     "mongoose": "^9.1.6"
+=======
+  "name": "lab4_users_database",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "seed": "node seed.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.2.1"
+>>>>>>> e482050a1b24c3ffe3effb93881e6eb0538363aa
   },
   "devDependencies": {
     "nodemon": "^3.1.11"
